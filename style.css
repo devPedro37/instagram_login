@@ -192,3 +192,22 @@ footer a{
     background-color: #4cb5f9;
     cursor: pointer;
 }
+
+.divisor{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    width: 35%;
+    height: 1px;
+    background-color: #a1a1a1;
+    user-select: none;
+}
+
+.divisor-nome{
+    margin: 0 2.5%;
+    font-weight: bold;
+}
