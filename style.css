@@ -43,7 +43,7 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .direita{
@@ -124,7 +124,7 @@ input[type="submit"]:hover{
 
 .aplicativos-loja{
     margin-top: 20px;
-    text-align: center;
+    text-align: center;/*Essa propiedade é o suficiente para centralizar as imagens tbm, pois está sendo aplicada no container principal*/
 }
 
 .aplicativos{
@@ -134,4 +134,25 @@ input[type="submit"]:hover{
 .aplicativos img{
     height: 40px;
     padding: 0 2px;
+}
+
+.footer{
+    height: 50px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+footer a{
+    margin-right: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.footer-licenca{
+    display: inline-block;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
 }
