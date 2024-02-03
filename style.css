@@ -121,3 +121,17 @@ input[type="submit"]:hover{
     font-weight: bold;
     user-select: none;
 }
+
+.aplicativos-loja{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.aplicativos{
+    margin-top: 16px;
+}
+
+.aplicativos img{
+    height: 40px;
+    padding: 0 2px;
+}
