@@ -100,5 +100,24 @@ input[type="submit"]{
     color: white;
     font-size: 16px;
     font-weight: bold;
+}
+
+input[type="submit"]:hover{
     cursor: pointer;
+    background-color:  #4cb5f9;
+}
+
+.info-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 0; /*Cima, direita e esquerda e baixo*/
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+.info-box p, a{
+    font-weight: bold;
+    user-select: none;
 }
