@@ -4,3 +4,17 @@
     outline: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #fafafa;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #3c69ed;
+}
