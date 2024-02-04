@@ -211,3 +211,111 @@ footer a{
     margin: 0 2.5%;
     font-weight: bold;
 }
+
+/*RESPONSIVIDADE DA APLICAÇÃO*/
+
+@media (max-width: 850px){
+
+    .esquerda{
+        display: none;
+    }
+
+    #container-interno{
+        margin: 0 auto; /*para centralizar no meio*/
+        min-height: 100%;
+        max-width: 350px;
+        display: flex;
+        align-items: center;
+    }
+
+    .direita{
+        padding-left: 0;
+    }
+
+    #container-cadastro{
+        margin: 0 auto; /*para centralizar no meio*/
+        min-height: 100%;
+        max-width: 350px;
+        display: flex;
+        align-items: center;
+    }
+
+    .aplicativos{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 381px) {
+    
+    #container-interno{
+        margin: 0 auto; /*para centralizar no meio*/
+        min-height: 100%;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="text"], input[type="password"], input[type="submit"]{
+        width: 250px;
+    }
+
+    #container-cadastro{
+        margin: 0 auto; /*para centralizar no meio*/
+        min-height: 100%;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .facebook-btn{
+        width: 250px;
+    }
+
+    .aplicativos{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 282px){
+    #container-interno{
+        margin: 0 auto; /*para centralizar no meio*/
+        min-height: 100%;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="text"], input[type="password"], input[type="submit"]{
+        width: 210px;
+    }
+
+    .info-box{
+        font-size: 11px;
+    }
+
+    footer a{
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .footer-licenca{
+        font-size: 10px;
+    }
+
+    
+    #container-cadastro{
+        margin: 0 auto; /*para centralizar no meio*/
+        min-height: 100%;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .facebook-btn{
+        width: 210px;
+    }
+
+    .aplicativos{
+        margin-bottom: 20px;
+    }
+}
