@@ -6,6 +6,7 @@
     --bgcinza: #e6e6e6;
     --btnazul: #3c69ed;
     --btnazulclaro: #4cb5f9;
+    --bgpreto: black;
 }
 
 *{
@@ -329,3 +330,5 @@ footer a{
         margin-bottom: 20px;
     }
 }
+
+
