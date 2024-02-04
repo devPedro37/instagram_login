@@ -1,3 +1,13 @@
+/*CRIANDO VARIAVEIS NO CSS*/
+
+
+:root{
+    --bgbranco: white;
+    --bgcinza: #e6e6e6;
+    --btnazul: #3c69ed;
+    --btnazulclaro: #4cb5f9;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -53,8 +63,8 @@ a{
 .login-corpo{
     padding: 20px 0;
     text-align: center;
-    border: 1px solid #e6e6e6;  
-    background-color: white;
+    border: 1px solid var(--bgcinza);  
+    background-color: #ffffff;
 }
 
 .logo-img{
@@ -76,7 +86,7 @@ input[type="password"],input[type="text"] {
     font-size: 13px;
     border-radius: 4px;
     border: 1px solid rgb(236, 234, 234);
-    background-color: #ffffff;
+    background-color: var(--bgbranco);
     color: black;
 }
 
@@ -95,7 +105,7 @@ input[type="submit"]{
     margin-top: 10px;
     margin-bottom: 10px;
     border: 0;
-    background-color: #3c69ed;
+    background-color: var(--btnazul);
     border-radius: 4px;
     color: white;
     font-size: 16px;
@@ -104,7 +114,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     cursor: pointer;
-    background-color:  #4cb5f9;
+    background-color: var(--btnazulclaro) ;
 }
 
 .info-box{
@@ -181,7 +191,7 @@ footer a{
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
-    background-color: #3c69ed;
+    background-color: var(--btnazul);
     border-radius: 4px;
     color: white;
     font-size: 13px;
@@ -189,7 +199,7 @@ footer a{
 }
 
 .facebook-btn:hover{
-    background-color: #4cb5f9;
+    background-color: var(--btnazulclaro);
     cursor: pointer;
 }
 
